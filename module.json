@@ -1,0 +1,46 @@
+{
+  "id": "immersive-ui",
+  "title": "Immersive UI",
+  "version": "0.1.0",
+  "compatibility": {
+    "minimum": "11",
+    "verified": "12"
+  },
+	"esmodules": ["scripts/immersiveUI.js"],
+  "relationships": {
+    "systems": [
+      {
+        "id": "ordemparanormal",
+        "type": "system",
+        "compatibility": {}
+      },
+      {
+        "id": "tormenta20",
+        "type": "system",
+        "compatibility": {}
+      }
+    ]
+  },
+  "description": "Um módulo com o intuito de prover algumas melhorias de interface e também temas personalizados para alguns sistemas.",
+  "authors": [
+    {
+      "name": "SouOWendel",
+      "email": "souowendel@gmail.com",
+      "discord": "souowendel",
+      "flags": {}
+    }
+  ],
+	"languages": [
+    {
+      "lang": "en",
+      "name": "English",
+      "path": "lang/en.json"
+    },
+    {
+      "lang": "pt-BR",
+      "name": "Português (Brasil)",
+      "path": "lang/pt-BR.json"
+    }
+  ],
+  "url": "https://github.com/SouOWendel/immersive-ui"
+}
